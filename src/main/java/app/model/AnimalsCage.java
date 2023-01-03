@@ -13,13 +13,9 @@ public class AnimalsCage {
     private Animal animal;
 
     private Timer timer;
-
+    @Autowired
     public Timer getTimer() {
         return timer;
-    }
-
-    public void setTimer(Timer timer) {
-        this.timer = timer;
     }
 
     public AnimalsCage(Timer timer) {

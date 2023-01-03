@@ -15,10 +15,4 @@ public class AppConfig {
     public Timer timer() {
         return new Timer();
     }
-
-    @Bean
-    public AnimalsCage animalsCage() {
-        return new AnimalsCage(timer());
-    }
-
 }
